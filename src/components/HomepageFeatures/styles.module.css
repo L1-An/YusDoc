@@ -1,0 +1,43 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+.featureTitle {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.featureTitle {
+  position: relative;
+  display: inline-block;
+  margin: 45px 0;
+  width: 100%;
+  text-align: center;
+}
+
+
+.featureTitle::before, .featureContent::after {
+  content: "";
+  display: block;
+  height: 1px;  /* 调整这个值以增加或减少横线的厚度 */
+  width: 100%;  /* 横线的宽度，这里是100% */
+  background-color: #c4c4c4;  /* 这是灰色的值，您可以根据需要调整 */
+  margin: 10px 0;  /* 从标题或描述到横线的距离 */
+}
+
+.featureTitle::before {
+  margin-bottom: 60px; /* 标题上方的横线距离 */
+  margin-top: 0;
+}
+
+.featureContent::after {
+  margin-top: 60px; /* 描述下方的横线距离 */
+  margin-bottom: 0;
+}
