@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: "Yu's Doc",
   tagline: 'Keep Hungry, Keep Foolish...',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/YuSpawnerHologram_Logo.png',
 
   // Set the production url of your site here
   url: 'https://l1-an.github.io',

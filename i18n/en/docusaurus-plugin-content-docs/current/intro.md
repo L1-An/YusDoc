@@ -2,46 +2,33 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome
 
-Let's discover **Docusaurus in less than 5 minutes**.
+![wakatime](https://wakatime.com/badge/github/L1-An/YusDoc.svg)
 
-## Getting Started
+:::danger
 
-Get started by **creating a new site**.
+This page is translate by ChatGPT, please forgive me for any mistakes
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+:::
 
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
+Welcome to my Doc  
+The languages I am currently learning include  
+```kotlin
+val learningLanguages = listOf("Kotlin", "Javascript", "Swift")
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+# Contact Me
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Discord: [L1An](https://discord.com/users/c1oudy_ab)  
+Email: shiyu46@icloud.com  
+GitHub: [L1-An](https://github.com/L1-An)
 
-## Start your site
+# About Me
 
-Run the development server:
+Currently working on `Minecraft plugin development`  
+Living in `Paris, France`
 
-```bash
-cd my-website
-npm run start
-```
+# My Plugin Projects
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- [YuSpawnerHologram](./category/yuspawnerhologram)
