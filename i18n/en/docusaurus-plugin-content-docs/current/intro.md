@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Welcome
 
-Document writing time
+Document writing time  
 ![wakatime](https://wakatime.com/badge/github/L1-An/YusDoc.svg)
 
 :::danger
