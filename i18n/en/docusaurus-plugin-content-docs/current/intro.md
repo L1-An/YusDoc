@@ -9,7 +9,7 @@ Document writing time
 
 :::danger
 
-This page is translate by ChatGPT, please forgive me for any mistakes
+These translated pages are translate by ChatGPT, please forgive me for any mistakes
 
 :::
 
