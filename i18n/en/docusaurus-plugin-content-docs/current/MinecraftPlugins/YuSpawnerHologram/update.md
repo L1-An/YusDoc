@@ -6,6 +6,13 @@ sidebar_position: 3
 
 For the complete update log, please visit [Github Releases](https://github.com/L1-An/YuSpawnerHologram/releases)
 
+## Ver 1.0.3
+
+Updated on: `30 Nov. 2023`
+
+- ✅ New PluginReloadEvent API
+- 🛠 Optimize the structure of codes
+
 ## Ver 1.0.2
 
 Updated on: `24 Oct. 2023`
