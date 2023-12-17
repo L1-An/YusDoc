@@ -4,6 +4,7 @@ sidebar_position: 1
 
 # 欢迎
 
+文档编写时间
 ![wakatime](https://wakatime.com/badge/github/L1-An/YusDoc.svg)  
 
 欢迎来到我的 Doc  
