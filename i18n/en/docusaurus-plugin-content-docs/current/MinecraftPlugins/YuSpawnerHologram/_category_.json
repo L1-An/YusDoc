@@ -1,5 +1,6 @@
 {
     "position": 2,
+    "label": "Start",
     "link": {
       "type": "generated-index"
     }

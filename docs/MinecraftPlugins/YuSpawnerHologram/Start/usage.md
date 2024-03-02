@@ -8,14 +8,14 @@ sidebar_position: 5
 例如创建了一个名为 `test` 的刷怪点, 那么下一步就是在 `config.yml` 配置它.
 
 <details>
-<summary> config.yml </summary>
+  <summary> config.yml </summary>
 
-```yaml title="hologramText:"
-test:
-  - '%name%'
-  - '&c&l重生时间'
-  - '%warmup%'
-```
+  ```yaml title="hologramText:"
+  test:
+    - '%name%'
+    - '&c&l重生时间'
+    - '%warmup%'
+  ```
 
 </details>  
 

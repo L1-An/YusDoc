@@ -16,6 +16,7 @@ val learningLanguages = listOf("Kotlin", "Javascript", "Swift")
 # 联系我
 
 Discord: [L1An](https://discord.com/users/c1oudy_ab)  
+DiscordServer: [Yu's Studio](https://discord.com/invite/SzPBHGttaR)  
 邮箱: shiyu46@icloud.com  
 GitHub: [L1-An](https://github.com/L1-An)
 
@@ -27,3 +28,4 @@ GitHub: [L1-An](https://github.com/L1-An)
 # 我的插件项目
 
 - [YuSpawnerHologram](./category/yuspawnerhologram)
+- [YuIllustration](./category/yuillustration)
