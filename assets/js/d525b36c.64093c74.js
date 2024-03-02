@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkyusdoc=self.webpackChunkyusdoc||[]).push([[689],{7231:e=>{e.exports=JSON.parse('{"permalink":"/YusDoc/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
