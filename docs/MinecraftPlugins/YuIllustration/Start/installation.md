@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # 安装
 
-1. 在 [Github Releases](https://github.com/L1-An/YuIllustration/releases) 中下载**最新版本**的插件, 并安装到 `./plugins` 中  
+1. 在购买插件或在SpigotMC下载最新版的免费版插件后, 并安装到 `./plugins` 中  
 2. 重启服务器
 3. Enjoy
 

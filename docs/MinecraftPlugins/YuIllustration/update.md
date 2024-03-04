@@ -4,6 +4,26 @@ sidebar_position: 5
 
 # 更新记录
 
+## Ver 1.0.2
+
+正在更新中...
+
+已完成:
+- ✅ 新增行内變量`{isunlocked-<category>-<entry>}`  - 顯示對應類別的條目是否已解鎖，返回 config.yml 中 `placeholder.isunlocked.true/false` 鍵的值
+- ✅ 新增PAPI變量`yuillustration_isunlocked_<category>_<entry>` - 效果與行內變量相同
+- 🛠 優化GUI讀取器和GUI配置文件的格式
+- ✅ 新增BattlePass支持: 新增以下quest type: `illusration_unlock` - 解鎖任意條目觸發
+- ✅ 新增Chemdah支持: 新增以下quest type: `illusration_unlock` - 解鎖任意條目觸發
+- 🛠 修復一些語言文件的bug
+- ✅ 新增Metrics統計信息系統
+
+## Ver 1.0.1.1
+
+更新于: `03 Mar. 2024`
+
+- ✅ 新增MythicLib屬性支持(同時支持MMOItems)
+- ✅ 允許類別和條目icon顯示變量
+
 ## Ver 1.0.1
 
 更新于: `02 Mar. 2024`

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 6
 ---
 
 # PlaceholderAPI
@@ -14,6 +14,9 @@ yuillustration_
  ┃  ┗━ [%category%/total] - 返回玩家已解锁对应category或总的条目bar
  ┣━ count_
  ┃  ┗━ [%category%/total] - 返回对应category或总的条目数量
- ┗━ percent_
-    ┗━ [%category%/total] - 返回对应category或总的条目百分比
+ ┣━ percent_
+ ┃  ┗━ [%category%/total] - 返回对应category或总的条目百分比
+ ┗━ isunlocked_
+    ┗━ [%category%]_[%entry%] - 显示对应类别的条目是否已解锁
+
 ```

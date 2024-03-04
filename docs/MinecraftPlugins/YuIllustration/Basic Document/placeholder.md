@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 6
 ---
 
 # 行内变量
@@ -10,22 +10,18 @@ sidebar_position: 2
   <summary>变量列表</summary>
 
   ```scss
-    {unlocked_
+    {unlocked-
      ┗━ [category/total]} - 返回玩家已解锁对应category或总的条目数量
-    {bar_
+    {bar-
      ┗━ [category/total]} - 返回玩家已解锁对应category或总的条目bar
-    {count_
+    {count-
      ┗━ [category/total]} - 返回对应category或总的条目数量
-    {percent_
+    {percent-
      ┗━ [category/total]} - 返回对应category或总的条目百分比
+    {isunlocked-
+     ┗━ [category]-[entry]} - 显示对应类别的条目是否已解锁
   ```
 </details>
-
-:::tip
-
-但不幸的是，这些行内变量暂时都不可以在 **Entry/Category Icon** 上显示，只能在 **GUI Icon** 上显示
-
-:::
 
 ## 使用
 
