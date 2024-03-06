@@ -4,11 +4,19 @@ sidebar_position: 5
 
 # 更新记录
 
+## Ver 1.0.3
+
+更新中...
+
+- ✅ 新增`config.yml`中的`icon.no-next-icon`和`icon.no-previous-icon`支持**custom-model-data**
+- ✅ 新增命令權限節點, 具體請查詢[command](./Start/command.md)
+- 🛠 修復拾取物品解鎖無法正確抓取物品lore的問題
+- 🛠 修復unlock指令跳錯的問題
+
 ## Ver 1.0.2
 
-正在更新中...
+更新于: `04 Mar. 2024`
 
-已完成:
 - ✅ 新增行内變量`{isunlocked-<category>-<entry>}`  - 顯示對應類別的條目是否已解鎖，返回 config.yml 中 `placeholder.isunlocked.true/false` 鍵的值
 - ✅ 新增PAPI變量`yuillustration_isunlocked_<category>_<entry>` - 效果與行內變量相同
 - 🛠 優化GUI讀取器和GUI配置文件的格式
