@@ -63,9 +63,6 @@ tell color inline "&aYou have unlocked an entry named {{ &entry }} &a!"
 For this statement, `tell` denotes sending a message to the player, `color` is a color conversion statement used to convert color codes like `&a` into colored text, and `inline` is an inline statement used to pass the `entry name` as an argument into the message content.
 
 But `color` only converts color codes into colored text and does not output anything by itself, so `tell` is used for output. Therefore, actually, the whole line `color inline "&aYou have unlocked an entry named {{ &entry }} &a!"` is an argument for `tell`.
-对于这一句, `tell` 是语句名称, 代表向玩家发送信息, `color` 是颜色转换语句, 用于将形如 `&a` 的颜色代码转换成颜色字符, `inline` 是内联语句, 用于将 `条目名称` 作为参数传入信息内容中.  
-  
-但 `color` 只能将颜色代码转换为颜色字符, 而不具有输出的功能, 那么 `tell` 就是用来输出的. 那么实际上, `color inilne "&a你解锁了一个名叫 {{ &entry }} &a的条目!"` 这整一行都是 `tell` 的参数.
 
 ### Statements
 
