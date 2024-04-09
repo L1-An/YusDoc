@@ -16,7 +16,9 @@ sidebar_position: 1
 
 ## 已测试
 
-**PaperSpigot**: 1.19.4
+**Paper**: 1.19.4  
+**Paper**: 1.20.2  
+**Paper**: 1.20.4  
 
 :::tip
 

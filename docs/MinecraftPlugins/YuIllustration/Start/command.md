@@ -23,6 +23,8 @@ sidebar_position: 4
  ┃  ┣━ (player) 为 player 打开主界面
  ┃  ┗━ (category) 为命令执行者(player)打开对应类别的界面
  ┃      ┗━ (player) 为 player 打开对应类别的界面
+ ┣━ edit - 为命令执行者(player)打开edit页面 - (yuillustration.command.edit)
+ ┃  ┗━ (player) 为 player 打开edit界面
  ┣━ api - (yuillustration.command.api)
  ┃  ┗━ file
  ┃      ┗━ createui
@@ -31,6 +33,13 @@ sidebar_position: 4
  ┃  ┗━ [category]
  ┃      ┗━ [entry] - 为命令执行者(player)解锁对应类别的条目
  ┃          ┗━ (player) - 为 player 解锁对应类别的条目
- ┗━ edit - 为命令执行者(player)打开edit页面 - (yuillustration.command.edit)
-    ┗━ (player) 为 player 打开edit界面
+ ┣━ deunlock - (yuillustration.command.deunlock)
+ ┃  ┗━ [category]
+ ┃      ┗━ [entry] - 为命令执行者(player)反向解锁对应类别的条目，换言之就是取消解锁
+ ┃          ┗━ (player) - 为 player 反向解锁对应类别的条目，换言之就是取消解锁
+ ┣━ get
+ ┃  ┗━ [category]
+ ┃      ┗━ [entry] - 给予命令执行者(player)对应类别的条目的解锁卡
+ ┃          ┗━ (player) - 给予 player 对应类别的条目的解锁卡
+ ┗━ version - 获取当前插件版本
 ```

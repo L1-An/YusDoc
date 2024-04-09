@@ -18,8 +18,7 @@ sidebar_position: 1
 
 | 说明 | 时效 | 价格 |
 | :-- | :--: | :-- |
-| 早鸟价 | 前10名客户购买 | **158CNY** / **699NTD** / **19.99EUR** - 永久 |
-| 原价 | 早鸟结束后 | **220CNY** / **999NTD** / **29.99EUR** - 永久 |
+| 价格 | 永久 | **158CNY** / **699NTD** / **19.99EUR** |
 
 购买请加入[Discord群](https://discord.com/invite/SzPBHGttaR)，或QQ903780207联系我
 

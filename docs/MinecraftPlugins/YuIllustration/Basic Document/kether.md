@@ -64,8 +64,22 @@ tell color inline "&a你解锁了一个名叫 {{ &entry }} &a的条目!"
   
 但 `color` 只能将颜色代码转换为颜色字符, 而不具有输出的功能, 那么 `tell` 就是用来输出的. 那么实际上, `color inilne "&a你解锁了一个名叫 {{ &entry }} &a的条目!"` 这整一行都是 `tell` 的参数.
 
-### 常用的语句
+### 语句
 
+#### 内置语句
+
+**Kether Script** 分为**公有语句**与**私有语句**, `YuIllustration` 提供了一系列的**共有语句**使用, 如下表:
+
+|语句|说明|备注|示例|
+|:--|:--|:--|:--|
+|`bar <category>`|返回某类别或总进度条| `<category>`处填写`total`则返回总进度 |`bar default`|
+|`count <category>`|返回某类别或总条目数| `<category>`处填写`total`则返回总进度 |`count default`|
+|`isunlocked <category> <entry>`|返回某类别的某个条目是否解锁| - |`isunlocked default example`|
+|`percent <category>`|返回某类别或总进度百分比| `<category>`处填写`total`则返回总进度 |`percent default`|
+|`toast <material> <action> [data/nbt <value>] [by/with <frame:task/goal/challenge>]`|发送成就信息|需要服务端版本高于1.13, 需要[UltimateAdvancementAPI](https://github.com/frengor/UltimateAdvancementAPI)|`toast diamond color inline "&a你解锁了 {{ &entry }} &a条目!" data 10001 by challenge`|
+|`unlocked <category>`|返回某类别已解锁的条目数| - |`unlocked default`|
+
+#### 常用语句
 对于图鉴解锁奖励, 常用的语句有如下几个:
 
 |语句|说明|备注|示例|
@@ -74,7 +88,6 @@ tell color inline "&a你解锁了一个名叫 {{ &entry }} &a的条目!"
 |`command <action>`|执行指令| - |`command inline "give {{ sender }} diamond 1"`|
 |`actionbar <action>`|发送动作栏信息| - |`actionbar color "&a牛奶奶偷了刘奶奶的牛奶"`|
 |`title <action> subtitle <action> by (fadeIn) (stay) (fadeOut)`|发送标题和副标题|也可以不传入subtitle, 这样就默认只发送主标题, 反之亦然|`title color "&a大锤八十" subtitle color "&c小锤四十" by 10 40 10`|
-|`toast <material> <action> [(by/with) (task/goal/challenge)]`|发送成就信息|需要服务端版本高于1.13|`toast diamond color inline "&a你解锁了 {{ &entry }} &a条目!" by challenge`|
 
 ---
 

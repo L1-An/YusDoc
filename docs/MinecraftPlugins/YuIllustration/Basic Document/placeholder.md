@@ -4,6 +4,12 @@ sidebar_position: 6
 
 # 行内变量
 
+:::warning
+
+由于性能原因, 在 `1.1.0` 版本后已弃用, 请使用 [Kether Script](./kether.md) 实现行内变量.
+
+:::
+
 插件提供了多种行内变量:
 
 <details>
