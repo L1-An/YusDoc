@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyusdoc=self.webpackChunkyusdoc||[]).push([[8954],{4749:o=>{o.exports=JSON.parse('{"title":"TabooLib","slug":"/category/taboolib","permalink":"/YusDoc/docs/category/taboolib","navigation":{"previous":{"title":"Develop","permalink":"/YusDoc/docs/category/develop"},"next":{"title":"TabooLib","permalink":"/YusDoc/docs/Develop/TabooLib/intro"}}}')}}]);
