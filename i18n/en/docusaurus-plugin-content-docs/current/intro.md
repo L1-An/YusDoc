@@ -6,6 +6,8 @@ sidebar_position: 1
 
 Document writing time  
 ![wakatime](https://wakatime.com/badge/github/L1-An/YusDoc.svg)
+Total coding time  
+![wakatime](https://wakatime.com/badge/user/018b3a75-57d0-4174-82b2-b604a838b205.svg)  
 
 :::danger
 

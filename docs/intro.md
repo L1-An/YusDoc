@@ -6,6 +6,8 @@ sidebar_position: 1
 
 文档编写时间  
 ![wakatime](https://wakatime.com/badge/github/L1-An/YusDoc.svg)  
+总 Coding 时间  
+![wakatime](https://wakatime.com/badge/user/018b3a75-57d0-4174-82b2-b604a838b205.svg)  
 
 欢迎来到我的 Doc  
 我正在学习的语言有  
