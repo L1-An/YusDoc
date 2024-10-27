@@ -4,6 +4,20 @@ sidebar_position: 5
 
 # 更新记录
 
+## Ver 1.1.1
+
+更新于: `09 Apr. 2024`
+
+- ✅ 新增 `PlaceholderAPI` 支持解析 `Kether` 腳本
+- ✅ 新增新的 `PlaceholderAPI identifier`: `yui`
+- ✅ 新增 `migrate數據遷移/導入` 功能，現已支持從MMOItems插件中導入
+- ✅ 新增物品解鎖類型default, mmoitems，分別對應原版物品(檢測名稱和lore)，mmoitems物品(檢測type與name是否對應)
+- ✅ 新增配置文件 `settings.show-unlock` 節點，為 `true` 會在條目圖標上顯示其對應的解鎖狀態
+- ✅ 新增 `GUI` 顯示頭顱選項
+- 🛠 修復Storage中 `saveKillMap` 報錯的問題
+- 🛠 修復 `unlock reward` 邏輯，若有些 `entry` 只設置了 `unlock` 條件但沒有 `reward` 則會導致重複滿足條件而無法解鎖的問題
+- 🛠 修復在控制台使用部分指令會報錯的問題
+
 ## Ver 1.1.0
 
 更新于: `07 Apr. 2024`
